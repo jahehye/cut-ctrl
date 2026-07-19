@@ -1,0 +1,1 @@
+import type {Metadata} from "next"; export const metadata:Metadata={title:"Crew",description:"Meet four CUT/CTRL barbers specializing in fades, texture, scissors, beards and restyles."};export default function Layout({children}:{children:React.ReactNode}){return children}
