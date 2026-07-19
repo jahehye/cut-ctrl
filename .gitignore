@@ -4,14 +4,16 @@
 # Next.js build output
 /.next
 /out
+/.vercel
 
 # production
 /build
+/dist
+/coverage
 
 # local environment files
-.env
-.env.local
-.env.*.local
+.env*
+!.env.example
 
 # logs
 *.log
@@ -19,6 +21,8 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+.eslintcache
+/.npm/
 
 # TypeScript cache
 *.tsbuildinfo
@@ -28,8 +32,16 @@ pnpm-debug.log*
 Thumbs.db
 .vscode/
 .idea/
+*.swp
 
 # local working files
 /work/
 /outputs/
 /.agents/
+/.codex/
+/screenshots-temp/
+/playwright-report/
+/test-results/
+
+# generated archives
+*.zip
